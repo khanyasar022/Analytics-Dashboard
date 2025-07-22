@@ -6,6 +6,7 @@ const morgan = require('morgan');
 const uploadRoutes = require('./routes/upload');
 const violationsRoutes = require('./routes/violations');
 const analyticsRoutes = require('./routes/analytics');
+const boundariesRoutes = require('./routes/boundaries');
 const { seedDatabase } = require('./utils/seedData');
 
 const app = express();
@@ -22,6 +23,7 @@ app.use('/uploads', express.static('uploads'));
 app.use('/api/upload', uploadRoutes);
 app.use('/api/violations', violationsRoutes);
 app.use('/api/analytics', analyticsRoutes);
+app.use('/api/boundaries', boundariesRoutes);
 
 app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
