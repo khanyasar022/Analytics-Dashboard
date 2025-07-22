@@ -4,6 +4,7 @@ const helmet = require('helmet');
 const morgan = require('morgan');
 
 const uploadRoutes = require('./routes/upload');
+const violationsRoutes = require('./routes/violations');
 const { seedDatabase } = require('./utils/seedData');
 
 const app = express();
@@ -18,6 +19,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use('/uploads', express.static('uploads'));
 
 app.use('/api/upload', uploadRoutes);
+app.use('/api/violations', violationsRoutes);
 
 app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
