@@ -3,6 +3,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
 
+const uploadRoutes = require('./routes/upload');
 const { seedDatabase } = require('./utils/seedData');
 
 const app = express();
@@ -16,6 +17,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 app.use('/uploads', express.static('uploads'));
 
+app.use('/api/upload', uploadRoutes);
 
 app.get('/api/health', (req, res) => {
   res.json({ status: 'OK', timestamp: new Date().toISOString() });
