@@ -4,6 +4,7 @@ import { Toaster } from 'react-hot-toast';
 import Navbar from './components/Navbar';
 import Dashboard from './pages/Dashboard';
 import Upload from './pages/Upload';
+import MapView from './pages/MapView';
 import TableView from './pages/TableView';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/upload" element={<Upload />} />
+            <Route path="/map" element={<MapView />} />
             <Route path="/table" element={<TableView />} />
           </Routes>
         </main>
