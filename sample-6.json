@@ -9,7 +9,7 @@
         "timestamp": "10:11:23",
         "latitude": 23.75791,
         "longitude": 85.97380,
-        "image_url": "https://via.placeholder.com/150"
+        "image_url": "https://picsum.photos/200/150?random=14"
       },
       {
         "id": "v15",
@@ -17,7 +17,7 @@
         "timestamp": "10:25:49",
         "latitude": 23.75845,
         "longitude": 85.97299,
-        "image_url": "https://via.placeholder.com/150"
+        "image_url": "https://picsum.photos/200/150?random=15"
       }
     ]
   }
