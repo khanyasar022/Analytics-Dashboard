@@ -1,0 +1,24 @@
+{
+    "drone_id": "DRONE_ZONE_6",
+    "date": "2025-07-15",
+    "location": "Zone F",
+    "violations": [
+      {
+        "id": "v14",
+        "type": "Unauthorized Drone",
+        "timestamp": "10:11:23",
+        "latitude": 23.75791,
+        "longitude": 85.97380,
+        "image_url": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "v15",
+        "type": "Oil Spill Detected",
+        "timestamp": "10:25:49",
+        "latitude": 23.75845,
+        "longitude": 85.97299,
+        "image_url": "https://via.placeholder.com/150"
+      }
+    ]
+  }
+  

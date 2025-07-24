@@ -1,0 +1,32 @@
+{
+    "drone_id": "DRONE_ZONE_9",
+    "date": "2025-07-18",
+    "location": "Zone I",
+    "violations": [
+      {
+        "id": "v21",
+        "type": "Crane Movement Hazard",
+        "timestamp": "13:04:15",
+        "latitude": 23.76201,
+        "longitude": 85.96800,
+        "image_url": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "v22",
+        "type": "Unsafe Working at Height",
+        "timestamp": "13:17:28",
+        "latitude": 23.76255,
+        "longitude": 85.96742,
+        "image_url": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "v23",
+        "type": "Improper Waste Disposal",
+        "timestamp": "13:29:39",
+        "latitude": 23.76310,
+        "longitude": 85.96683,
+        "image_url": "https://via.placeholder.com/150"
+      }
+    ]
+  }
+  

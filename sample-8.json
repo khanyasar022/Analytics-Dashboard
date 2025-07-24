@@ -1,0 +1,24 @@
+{
+    "drone_id": "DRONE_ZONE_8",
+    "date": "2025-07-17",
+    "location": "Zone H",
+    "violations": [
+      {
+        "id": "v19",
+        "type": "Lack of Safety Barriers",
+        "timestamp": "12:00:00",
+        "latitude": 23.76098,
+        "longitude": 85.96950,
+        "image_url": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "v20",
+        "type": "Unauthorized Entry",
+        "timestamp": "12:12:34",
+        "latitude": 23.76145,
+        "longitude": 85.96890,
+        "image_url": "https://via.placeholder.com/150"
+      }
+    ]
+  }
+  

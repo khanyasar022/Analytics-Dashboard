@@ -1,0 +1,32 @@
+{
+    "drone_id": "DRONE_ZONE_5",
+    "date": "2025-07-14",
+    "location": "Zone E",
+    "violations": [
+      {
+        "id": "v11",
+        "type": "Unauthorized Access Attempt",
+        "timestamp": "08:33:47",
+        "latitude": 23.75580,
+        "longitude": 85.97600,
+        "image_url": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "v12",
+        "type": "Fallen Object Hazard",
+        "timestamp": "08:49:58",
+        "latitude": 23.75623,
+        "longitude": 85.97542,
+        "image_url": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "v13",
+        "type": "Chemical Spill",
+        "timestamp": "09:01:12",
+        "latitude": 23.75678,
+        "longitude": 85.97411,
+        "image_url": "https://via.placeholder.com/150"
+      }
+    ]
+  }
+  

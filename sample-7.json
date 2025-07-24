@@ -1,0 +1,32 @@
+{
+    "drone_id": "DRONE_ZONE_7",
+    "date": "2025-07-16",
+    "location": "Zone G",
+    "violations": [
+      {
+        "id": "v16",
+        "type": "Open Flame Detected",
+        "timestamp": "11:03:45",
+        "latitude": 23.75910,
+        "longitude": 85.97201,
+        "image_url": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "v17",
+        "type": "Leaking Pipe",
+        "timestamp": "11:15:02",
+        "latitude": 23.75963,
+        "longitude": 85.97110,
+        "image_url": "https://via.placeholder.com/150"
+      },
+      {
+        "id": "v18",
+        "type": "Scaffold Collapse Risk",
+        "timestamp": "11:26:55",
+        "latitude": 23.76020,
+        "longitude": 85.97004,
+        "image_url": "https://via.placeholder.com/150"
+      }
+    ]
+  }
+  
